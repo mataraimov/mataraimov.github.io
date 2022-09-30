@@ -1,8 +1,10 @@
 import React from 'react';
 import './Payment.css';
-// import Payment from '../Payment';
+import { useDispatch } from 'react-redux';
+import { clearitem } from './../../redux/slices/cartSlice';
 import { Link } from 'react-router-dom';
-const Payment = ({ setactive }) => {
+const Payment = () => {
+  const dispatch = useDispatch();
   return (
     <>
       <div className="pay">
@@ -10,7 +12,7 @@ const Payment = ({ setactive }) => {
         <input type="tel" placeholder="card number" />
         <input type="tel" placeholder="card holder" />
         <Link to="/">
-          <button onClick={() => setactive(false)}>pay for the purchase</button>
+          <button onClick={() => dispatch(clearitem())}>pay for the purchase</button>
         </Link>
       </div>
     </>

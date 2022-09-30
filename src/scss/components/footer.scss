@@ -14,7 +14,20 @@
       padding: 10px 10px;
     }
   }
-  
+  @media screen and(max-width:700px){
+    
+    padding-top: 20px;
+    height: 80px;
+    ul{
+      font-size: 10px;
+      li{
+        padding:  4px 10px;
+      }
+    }
+    h3{
+      font-size: 14px;
+    }
+  }
   background-color: $gray-line;
   padding-top: 20px;
   position: fixed;

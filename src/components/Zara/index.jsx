@@ -12,9 +12,11 @@ function Pizza(el) {
   };
   const addToBasket = (el) => {
     dispatch(additem(el));
+    notify();
+  };
+  const notify = () => {
     toast('Item is added to basket!');
   };
-
   return (
     <div className="pizza-block" onClick={() => setset(el)}>
       <Link to="/item">

@@ -26,7 +26,7 @@ function Header() {
         <div className="header__cart">
           {isAuth ? (
             <button className="search__button" onClick={() => dispatch(removeUser())}>
-              log out from {email}
+              log out
             </button>
           ) : (
             <Link to="/login">

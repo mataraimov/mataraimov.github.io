@@ -64,7 +64,8 @@ export const CartItem = () => {
         {isAuth ? <Payment /> : <LoginPage />}
       </Modal>
       <div onClick={() => setmodalActive(true)} className={styles.total}>
-        Total: {totalPrice} usd<button>continue</button>
+        <span>Total: {totalPrice} usd</span>
+        <button>continue</button>
       </div>
     </>
   );
