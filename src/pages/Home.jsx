@@ -23,8 +23,7 @@ const Home = () => {
   const onChangeCategory = (id) => {
     dispatch(setcategoryId(id));
   };
-  // console.log(categoryId);
-  // console.log(categoryId);
+
   React.useEffect(() => {
     setisloading(true);
     axios
