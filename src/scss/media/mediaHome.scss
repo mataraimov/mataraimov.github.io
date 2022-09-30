@@ -1,0 +1,49 @@
+.scroll__wheel{
+  position: absolute;
+  left: 0;
+  top: 150px;
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  
+}
+@media screen and (max-width:720px) {
+  .header{
+    padding: 20px 0;
+  }
+  .scroll__wheel{
+    top: 100px;
+  }
+}
+@media screen and (max-width:660px) {
+  .header{
+    padding: 20px 0;
+  }
+  .header__logo{
+    margin-left: 80px;
+  }
+  .scroll__wheel{
+    top: 140px;
+    height: 60vh;
+  }
+}
+@media screen and (max-width:480px) {
+  .container{
+    margin-right: 0;
+    width: 100%;
+  }
+  .header{
+    padding: 20px 0;
+  }
+  .header__logo{
+    
+    img{
+      scale: .7;
+    }
+    margin-left: 0px;
+  }
+  .scroll__wheel{
+    top: 130px;
+    height: 60vh;
+  }
+}

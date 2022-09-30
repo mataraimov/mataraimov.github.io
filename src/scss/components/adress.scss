@@ -1,0 +1,27 @@
+.Adress{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  h2{
+    font-size: 42px;
+    padding: 10px;
+    color: #70544f;
+  }
+  p{
+    padding: 10px;
+    color: gray ;
+  }
+}
+.adress__block{
+  display: flex;
+  justify-content: center;
+}
+@keyframes slider {
+  0%   {background-image:url(../../assets/images/img1.jpeg) }
+  25%  {background-image:url(../../assets/images/img2.jpeg)}
+  50%  {background-image:url(../../assets/images/img3.jpeg)}
+  75%  {background-image:url(../../assets/images/img4.jpeg) }
+  100% {background-image:url(../../assets/images/img5.jpeg)}
+}

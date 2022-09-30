@@ -1,0 +1,44 @@
+.div{
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  img{
+    width: 280px;
+  }
+  .infodiv{
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px;
+  }
+}
+.colors{
+  display: flex;
+}
+.imgSlider{
+  position: relative;
+  .bt1{
+    border: none;
+    background: white;
+    position: absolute;
+    left: 30px;
+    bottom: -30px;
+  }
+  .bt2{
+    border: none;
+    background: white;
+    position: absolute;
+    right: 30px;
+    bottom: -30px;
+  }
+  .bt1:hover,.bt2:hover{
+    border-radius: 50%;
+    background: rgb(217, 214, 214);
+    padding: 3px;
+  }
+}

@@ -1,0 +1,180 @@
+// @import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
+//@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);
+.card{
+  // box-shadow: 2px 7px 0px 0px rgba(34, 60, 80, 0.2);
+  margin-bottom: 10px;
+  
+}
+.div{
+  font-family: 'Quicksand',serif;
+  letter-spacing: .2px;
+  height: 80vh;
+  overflow: auto;
+  white-space: nowrap;
+  position: relative;
+  h4{
+    font-family: 'Quicksand',serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    padding-left: 4px;
+  }
+  display: flex;
+  // flex-wrap: wrap;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.cartBlock{
+  
+  border-radius: 20px;
+  background: rgba(233, 232, 232 ,.6);
+  width: 420px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-right: 80px;
+  .cartBlockImg,img{
+    border-radius: 20px 0 0 20px;
+    width: 280px;
+    height: 360px;
+    box-shadow: -5px 7px 8px 0px rgba(34, 60, 80, 0.2);
+  }
+}
+.cartBlockDescription{
+  font-family: 'Quicksand',serif;
+  // width: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  // justify-content: flex-end;
+  padding-left: 10px;
+  div{
+    border-bottom: .1px solid #000;border-bottom: 1px solid rgb(198, 188, 188);
+  }
+}
+.cartBlockRef{
+  font-family: 'Quicksand',serif;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 10px ;
+
+}
+.cartBlockRefBtn{
+  font-size: 12px;
+  font-weight: 200;
+  border: none;
+  background: transparent;
+}
+.cartBtn{
+  cursor: pointer;
+  padding-left: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  font-weight: 100;
+  border: none;
+  background: transparent;
+}
+.cartBtn:hover{
+  // background: gray;
+  border-radius: 50%;
+  opacity: .5;
+}
+.cartBlockRefCount{
+  font-family: 'Quicksand',serif;
+  color: #000;
+  font-size: 14px;
+  font-weight: 200;
+  padding: 2px 4px;
+  padding: 10px;
+  padding-right: 0px;
+  font-weight: 100;
+}
+.cartBlockDelete{
+  font-family: 'Quicksand',serif;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px;
+  border: none;
+  background: transparent;
+}
+
+.cartBlockDelete:hover{
+  border: 1px solid #000;
+  // background: #000;
+  // color: aliceblue;
+}
+.total{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  bottom: 130px;
+  right: 50px;
+  width: 300px;
+  height: 30px;
+  padding: 5px;
+  color: #000;
+  background: transparent;
+  font-size: 12px;
+  font-weight: 200;
+  button{
+    cursor: pointer;
+    height: 50px;
+    width: 180px;
+    border: none;
+    background: #000;
+    color: aliceblue;
+    padding: 10px;
+  }
+  button:hover{
+    opacity: .7;
+  }
+}
+.div{
+  @media screen and(max-width:460px) {
+    .cartBlockImg,img{
+      width: 210px;
+      height: 280px;
+    }
+    .cartBlock{
+      width: 330px;
+    }
+    .total{
+      right: -30px;
+      width: 240px;
+      button{
+        width: 120px;
+      }
+    }
+  }
+  @media screen and(max-width:360px) {
+    .cartBlockImg,img{
+      width:140px;
+      height: 210px;
+    }
+    .cartBlock{
+      width: 260px;
+    }
+    .total{
+      right: -30px;
+      width: 180px;
+      button{
+        width: 80px;
+      }
+    }
+  }
+}
+.cartBlockRefCount{
+  font-weight: 400;
+}
+// .total:hover{
+//   width: 100px;
+//   height: 30px;
+//   padding: 5px;
+//   border: 1px solid #000;
+// }

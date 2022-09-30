@@ -1,0 +1,221 @@
+@import '../variables.scss';
+
+// .button {
+//   display: inline-block;
+//   background-color: #fff;
+//   border-radius: 30px;
+//   padding: 10px 20px;
+//   min-width: 100px;
+//   text-align: center;
+//   cursor: pointer;
+//   transition: background-color $duration ease-in-out, border-color $duration ease-in-out;
+//   border: 1px solid transparent;
+//   @include noselect();
+//   color: #000;
+//   &,
+//   span {
+//     color: #000;
+//   }
+
+//   i,
+//   span,
+//   path,
+//   svg {
+//     transition: all $duration ease-in-out;
+//   }
+
+//   &:hover {
+//     background-color: gray;
+    
+//   }
+
+//   &:active {
+//     background-color: darken($orange, 12%);
+//     transform: translateY(1px);
+//   }
+
+//   &--circle {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     width: 32px;
+//     height: 32px;
+//     min-width: 32px;
+//     padding: 0;
+//     border-width: 2px;
+//   }
+
+//   &--black {
+//     background-color: $black;
+
+//     &:hover,
+//     &:active {
+//       background-color: lighten($color: $black, $amount: 10);
+//     }
+//   }
+
+//   &--outline {
+//     background-color: rgb(12, 12, 12);
+//     border-color: $orange;
+//     &,
+//     span {
+//       color: $orange;
+//     }
+
+//     svg {
+//       path {
+//         fill: $orange;
+//       }
+//     }
+
+//     &:hover {
+//       background-color: $orange;
+
+//       &,
+//       span {
+//         color: #000;
+//       }
+
+//       svg {
+//         path {
+//           fill: rgb(17, 14, 14);
+//         }
+//       }
+//     }
+
+//     &:active {
+//       background-color: darken($gray-line, 8%);
+//     }
+//   }
+
+//   &__delimiter {
+//     width: 1px;
+//     height: 25px;
+//     background-color: rgba(255, 255, 255, 0.25);
+//     margin-left: 14px;
+//     margin-right: 14px;
+//   }
+
+//   &--add {
+//     svg {
+//       margin-right: 2px;
+//     }
+
+//     span {
+//       font-weight: 600;
+//       font-size: 16px;
+//     }
+
+//     &:hover {
+//       i {
+//         background-color: #fff;
+//         color: $black;
+//       }
+//     }
+
+//     i {
+//       display: inline-block;
+//       border-radius: 30px;
+//       background-color: $black;
+//       color: #fff;
+//       font-weight: 600;
+//       width: 22px;
+//       height: 22px;
+//       font-style: normal;
+//       font-size: 13px;
+//       line-height: 22px;
+//       position: relative;
+//       top: -1px;
+//       left: 3px;
+//     }
+//   }
+
+//   &--cart {
+//     display: flex;
+//     align-items: center;
+//     line-height: 23px;
+//     padding: 12px 25px;
+
+//     svg {
+//       margin-right: 8px;
+//       margin-bottom: 1px;
+//       color: #000;
+//     }
+
+//     span {
+//       font-weight: 600;
+//       font-size: 16px;
+//     }
+//   }
+// }
+.search__button{
+  background:transparent;
+  border: none;
+  color: darkslategrey;
+  // margin-right: 40px;
+  cursor: pointer;
+  margin-right: 14px;
+}
+.header__cart{
+  // width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo{
+  margin-left: 120px;
+}
+.svgcol{
+  fill: #000;
+}
+.button--cart{
+  position: relative;
+  span{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    font-size: 14px;
+  }
+  img{
+    width: 30px;
+  }
+}
+
+.button--cart:hover{
+  opacity: .5;
+}
+.search__button:hover{
+  opacity: .5;
+}
+.header__logo:hover{
+  opacity: .7;
+}
+.footer{
+  h3:hover,li:hover{
+    opacity: .5;
+  }
+}
+li:hover{
+  opacity: .5;
+}
+// @media screen and(max-width:) {
+  
+// }
+.sidebarBtn{
+  // cursor: pointer;
+  border: none;
+  background: #fff;
+  margin-right: 35px;
+}
+.sidebarBtn:hover{
+  opacity: .5;
+}
+.addToBasket{
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  outline: none;
+  border: none;
+  margin: 10px 0;
+  cursor: pointer;
+}

@@ -1,0 +1,370 @@
+[
+  {
+    "gender": false,
+    "name": "Winter Puffer Coat",
+    "price": 91,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/1/p/8073/241/085/2/w/670/8073241085_2_2_1.jpg?ts=1663318192851",
+    "type": "1",
+    "color": [
+      "black",
+      "white",
+      "brown"
+    ],
+    "size": "s",
+    "id": "1"
+  },
+  {
+    "gender": false,
+    "name": "Winter Puffer Coat",
+    "price": 88,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/1/p/8073/241/085/2/w/670/8073241085_2_1_1.jpg?ts=1663318221791",
+    "type": "1",
+    "color":["black","gray","green"] ,
+    "size": "m",
+    "id": "2"
+  },
+  {
+    "gender": false,
+    "name": "Winter Puffer Coat",
+    "price": 88,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/1/p/2969/253/800/2/w/1126/2969253800_1_1_1.jpg?ts=1661354400180",
+    "type": "1",
+    "color":["black","violet","yellow"] ,
+    "size": "m",
+    "id": "3"
+  },
+  {
+    "gender": false,
+    "name": "long fit blazer",
+    "price": 57,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/1/p/7102/323/800/3/w/670/7102323800_2_1_1.jpg?ts=1663323397466",
+    "type": "2",
+    "color":["black","blue","white"] ,
+    "size": "l",
+    "id": "4"
+  },
+  {
+    "gender": false,
+    "name": "long loose blazer",
+    "price": 69,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/1/p/2284/646/800/17/w/670/2284646800_2_1_1.jpg?ts=1663061113289",
+    "type": "2",
+    "color":["blue","pink","violet"] ,
+    "size": "xl",
+    "id": "5"
+  },
+  {
+    "gender": false,
+    "name": "long fit blazer",
+    "price": 71,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/1/p/4432/773/404/2/w/908/4432773404_2_1_1.jpg?ts=1663327776559",
+    "type": "2",
+    "color":["blue","gray","black"] ,
+    "size": "xxl",
+    "id": "6"
+  },
+  {
+    "gender": false,
+    "name": "satin shirt",
+    "price": 4,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/1/p/4786/275/430/2/w/908/4786275430_2_1_1.jpg?ts=1663328076080",
+    "type": "3",
+    "color":["blue","yellow"] ,
+    "size": "m",
+    "id": "7"
+  },
+  {
+    "gender": false,
+    "name": "poplin shirt",
+    "price": 92,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/1/p/3666/172/630/17/w/670/3666172630_15_1_1.jpg?ts=1663313835183",
+    "type": "3",
+    "color":["pink","yellow","green"] ,
+    "size": "xs",
+    "id": "8"
+  },
+  {
+    "gender": false,
+    "name": "print shirt",
+    "price": 3,
+    "imgUrl": "https://static.zara.net/photos///2022/I/1/1/p/3124/010/040/2/w/908/3124010040_2_1_1.jpg?ts=1663171591512",
+    "type": "3",
+    "color":["black","white","gray"] ,
+    "size": "xl",
+    "id": "9"
+  },
+  {
+    "gender": false,
+    "name": "Trend shoes",
+    "price": 32,
+    "imgUrl": "https://static.zara.net/photos///2022/I/1/1/p/1105/010/040/2/w/670/1105010040_2_2_1.jpg?ts=1663068536813",
+    "type": "4",
+    "color":["black","white","green"] ,
+    "size": "size 10",
+    "id": "10"
+  },
+  {
+    "gender": false,
+    "name": "Trend shoes",
+    "price": 32,
+    "imgUrl": "https://static.zara.net/photos///2022/I/1/1/p/5005/010/050/3/w/908/5005010050_2_2_1.jpg?ts=1663572575759",
+    "type": "4",
+    "color":["pink","orange","brown"] ,
+    "size": "size 11",
+    "id": "11"
+  },
+  {
+    "gender": false,
+    "name": "Trend shoes",
+    "price": 74,
+    "imgUrl": "https://static.zara.net/photos///2022/I/1/1/p/5370/010/808/2/w/670/5370010808_15_2_1.jpg?ts=1663165333263",
+    "type": "4",
+    "color":["black","white","green"] ,
+    "size": "size 12",
+    "id": "12"
+  },
+  {
+    "gender": false,
+    "name": "Hat with band",
+    "price": 50,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/1/p/3920/029/052/2/w/908/3920029052_15_10_1.jpg?ts=1653491191694",
+    "type": "5",
+    "color":["yellow","white"] ,
+    "size": "size 13",
+    "id": "13"
+  },
+  {
+    "gender": false,
+    "name": "Bucket hat",
+    "price": 27,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/1/p/3739/025/620/2/w/790/3739025620_6_1_1.jpg?ts=1657705425670",
+    "type": "5",
+    "color":["red","yellow","gray"] ,
+    "size": "size 14",
+    "id": "14"
+  },
+  {
+    "gender": false,
+    "name": "Jackquard hat",
+    "price": 22,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/1/p/0653/211/703/2/w/908/0653211703_15_11_1.jpg?ts=1657527571195",
+    "type": "5",
+    "color":["yellow","white"] ,
+    "size": "size 15",
+    "id": "15"
+  },
+  {
+    "gender": false,
+    "name": "Long printed dress",
+    "price": 91,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/1/p/9028/187/800/3/w/908/9028187800_1_1_1.jpg?ts=1663332075828",
+    "type": "6",
+    "color":["red","yellow","gray","black"] ,
+    "size": "size 16",
+    "id": "16"
+  },
+  {
+    "gender": false,
+    "name": "Straight midi dress",
+    "price": 4,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/1/p/5216/259/802/3/w/670/5216259802_1_1_1.jpg?ts=1663330445995",
+    "type": "6",
+    "color":["gray","black"] ,
+    "size": "size 17",
+    "id": "17"
+  },
+  {
+    "gender": false,
+    "name": "Dress with contrasting topstiching",
+    "price": 25,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/1/p/2674/241/800/3/w/908/2674241800_1_1_1.jpg?ts=1663334778251",
+    "type": "6",
+    "color":["gray","black"] ,
+    "size": "size 18",
+    "id": "18"
+  },
+  {
+    "gender": false,
+    "name": "Winter Puffer Coat",
+    "price": 91,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/2/p/8491/500/800/2/w/1126/8491500800_1_1_1.jpg?ts=1663230057514",
+    "type": "11",
+    "color": [
+      "black",
+      "white",
+      "brown"
+    ],
+    "size": "s",
+    "id": "1"
+  },
+  {
+    "gender": false,
+    "name": "Winter Puffer Coat",
+    "price": 88,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/2/p/7380/660/800/2/w/1126/7380660800_1_1_1.jpg?ts=1663245025869",
+    "type": "11",
+    "color":["black","gray","green"] ,
+    "size": "m",
+    "id": "2"
+  },
+  {
+    "gender": false,
+    "name": "Winter Puffer Coat",
+    "price": 88,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/2/p/8281/402/485/2/w/1126/8281402485_1_1_1.jpg?ts=1661870075374",
+    "type": "11",
+    "color":["black","violet","yellow"] ,
+    "size": "m",
+    "id": "3"
+  },
+  {
+    "gender": false,
+    "name": "long fit blazer",
+    "price": 57,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/2/p/1564/900/401/2/w/1126/1564900401_1_1_1.jpg?ts=1663604873629",
+    "type": "12",
+    "color":["black","blue","white"] ,
+    "size": "l",
+    "id": "4"
+  },
+  {
+    "gender": false,
+    "name": "long loose blazer",
+    "price": 69,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/2/p/1564/900/800/2/w/1126/1564900800_1_1_1.jpg?ts=1663329409218",
+    "type": "12",
+    "color":["blue","gray","black"] ,
+    "size": "xl",
+    "id": "5"
+  },
+  {
+    "gender": false,
+    "name": "long fit blazer",
+    "price": 71,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/2/p/0706/635/800/2/w/1126/0706635800_1_1_1.jpg?ts=1660674419834",
+    "type": "12",
+    "color":["blue","gray","black"] ,
+    "size": "xxl",
+    "id": "6"
+  },
+  {
+    "gender": false,
+    "name": "chambray shirt",
+    "price": 4,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/2/p/7545/505/400/2/w/1126/7545505400_1_1_1.jpg?ts=1663245118043",
+    "type": "13",
+    "color":["blue","yellow"] ,
+    "size": "m",
+    "id": "7"
+  },
+  {
+    "gender": false,
+    "name": "flame print shirt",
+    "price": 92,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/2/p/6085/351/800/2/w/1126/6085351800_1_1_1.jpg?ts=1663857060815",
+    "type": "13",
+    "color":["pink","yellow","green"] ,
+    "size": "xs",
+    "id": "8"
+  },
+  {
+    "gender": false,
+    "name": "abstract print shirt",
+    "price": 3,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/2/p/6449/358/800/2/w/1126/6449358800_1_1_1.jpg?ts=1663747328693",
+    "type": "13",
+    "color":["black","white","gray"] ,
+    "size": "xl",
+    "id": "9"
+  },
+  {
+    "gender": false,
+    "name": "Running trainers",
+    "price": 32,
+    "imgUrl": "https://static.zara.net/photos///2022/I/1/2/p/2327/020/202/2/w/1126/2327020202_2_2_1.jpg?ts=1662558477399",
+    "type": "14",
+    "color":["black","white","green"] ,
+    "size": "size 10",
+    "id": "10"
+  },
+  {
+    "gender": false,
+    "name": "MULTICOLOURED RUNNING SNEAKERS",
+    "price": 32,
+    "imgUrl": "https://static.zara.net/photos///2022/I/1/2/p/2311/020/203/2/w/1126/2311020203_2_1_1.jpg?ts=1663332832181",
+    "type": "14",
+    "color":["pink","orange","brown"] ,
+    "size": "size 11",
+    "id": "11"
+  },
+  {
+    "gender": false,
+    "name": "LEATHER SHOES",
+    "price": 74,
+    "imgUrl": "https://static.zara.net/photos///2022/I/1/2/p/2425/020/001/2/w/1126/2425020001_6_1_1.jpg?ts=1663839295127",
+    "type": "14",
+    "color":["black","white","green"] ,
+    "size": "size 12",
+    "id": "12"
+  },
+  {
+    "gender": false,
+    "name": "CAP WITH LETTER PATCH",
+    "price": 50,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/1/p/9065/347/501/2/w/1126/9065347501_6_1_1.jpg?ts=1660293485544",
+    "type": "15",
+    "color":["yellow","white"] ,
+    "size": "size 13",
+    "id": "13"
+  },
+  {
+    "gender": false,
+    "name": "FLANNEL BERET",
+    "price": 27,
+    "imgUrl": "https://static.zara.net/photos///contents/cm/media-transformations/joinlife-ctx/joinlife-large.svg?ts=1611919362013",
+    "type": "15",
+    "color":["red","yellow","gray"] ,
+    "size": "size 14",
+    "id": "14"
+  },
+  {
+    "gender": false,
+    "name": "100% WOOL HAT WITH BAND",
+    "price": 22,
+    "imgUrl": "https://static.zara.net/photos///2022/I/0/2/p/3920/311/700/2/w/1126/3920311700_6_1_1.jpg?ts=1662713067257",
+    "type": "15",
+    "color":["brown","white"] ,
+    "size": "size 15",
+    "id": "15"
+  },
+  {
+    "gender": false,
+    "name": "CANVAS BOWLING BAG",
+    "price": 91,
+    "imgUrl": "https://static.zara.net/photos///2022/I/1/2/p/3115/020/131/2/w/1126/3115020131_6_1_1.jpg?ts=1663839295786",
+    "type": "16",
+    "color":["red","yellow","gray","black"] ,
+    "size": "size 16",
+    "id": "16"
+  },
+  {
+    "gender": false,
+    "name": "nylon backpack",
+    "price": 4,
+    "imgUrl": "https://static.zara.net/photos///2022/I/1/2/p/3238/020/800/2/w/1126/3238020800_6_1_1.jpg?ts=1663839295864",
+    "type": "16",
+    "color":["gray","black"] ,
+    "size": "size 17",
+    "id": "17"
+  },
+  {
+    "gender": false,
+    "name": "nylon crossbody tote bag",
+    "price": 25,
+    "imgUrl": "https://static.zara.net/photos///2022/I/1/2/p/3622/020/400/2/w/1126/3622020400_6_1_1.jpg?ts=1663839296183",
+    "type": "16",
+    "color":["gray","black"] ,
+    "size": "size 18",
+    "id": "18"
+  }
+]
