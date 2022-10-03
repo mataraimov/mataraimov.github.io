@@ -24,15 +24,23 @@ const Login = ({ title, handleClick }) => {
   return (
     <div className={styles.main__block}>
       <div className={styles.login__block}>
-        <p>log in</p>
+        <p className={styles.login__block_p}>log in</p>
         <Form title="sign in" handleClick={handleLogin} />
-      </div>
-      <div className={styles.register__block}>
-        <Link to="/register">
-          <button>register</button>
-        </Link>
+        <p className={styles.login__block_p}>
+          Didn`t have any account?
+          <Link to="/register">
+            <span className={styles.registerBtnspan}>register now</span>
+          </Link>
+        </p>
       </div>
     </div>
   );
 };
 export default Login;
+//<div className={styles.register__block}>
+{
+  /* <Link to="/register">
+          <button>register</button>
+        </Link> */
+}
+// </div>

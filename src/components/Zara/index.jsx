@@ -5,6 +5,9 @@ import { setItem } from './../../redux/slices/infoSlice';
 import { additem } from '../../redux/slices/cartSlice';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 function Pizza(el) {
   const dispatch = useDispatch();
   const setset = (el) => {
@@ -17,8 +20,13 @@ function Pizza(el) {
   const notify = () => {
     toast('Item is added to basket!');
   };
+
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
+
   return (
-    <div className="pizza-block" onClick={() => setset(el)}>
+    <div data-aos="fade-up" className="pizza-block" onClick={() => setset(el)}>
       <Link to="/item">
         <img className="pizza-block__image" src={el.imgUrl[0]} alt="Item" />
       </Link>

@@ -7,10 +7,10 @@ import { setsort } from '../redux/slices/filterSlice';
 const sorts = [
   // { name: 'популярности(DESC)', sortProperty: '-rating' },
   // { name: 'популярности', sortProperty: 'rating' },
-  { name: 'цене(DESC)', sortProperty: '-price' },
-  { name: 'цене', sortProperty: 'price' },
-  { name: 'алфавиту(DESC)', sortProperty: '-name' },
-  { name: 'алфавиту', sortProperty: 'name' },
+  { name: 'by price ( DESCending )', sortProperty: '-price' },
+  { name: 'by pricе', sortProperty: 'price' },
+  { name: 'by name ( DESCending )', sortProperty: '-name' },
+  { name: 'by name', sortProperty: 'name' },
 ];
 function Sort() {
   const sort = useSelector((state) => state.filter.sort);

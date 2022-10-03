@@ -3,8 +3,8 @@ import SignUp from '../components/SignUp';
 
 export const RegisterPage = () => {
   return (
-    <div>
-      RegisterPage
+    <div className="rgstr">
+      <span>Register page</span>
       <SignUp />
     </div>
   );
