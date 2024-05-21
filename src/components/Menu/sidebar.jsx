@@ -41,7 +41,7 @@ const Sidebar = ({ value, onChangeCategory }) => {
         <ul>
           {first
             ? womenCategories.map((el, indx) => (
-                <Link to="/items">
+                <Link key={indx} to="/items">
                   <li
                     key={indx}
                     onClick={() => onChangeCategory(`w${indx}`)}

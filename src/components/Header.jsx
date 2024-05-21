@@ -1,14 +1,14 @@
 import logo from '.././assets/images/logo.png';
 import { Link } from 'react-router-dom';
 import React from 'react';
-// import Search from './Search';
+
 import { useAuth } from '../hooks/isAuth';
 import bag from '../assets/images/bag.png';
 import Menu from './Menu';
 import { useDispatch } from 'react-redux';
 import { useSelector } from 'react-redux';
 import { removeUser } from '../redux/slices/userSlice';
-import Modal from './Modal';
+
 function Header() {
   const dispatch = useDispatch();
   const { isAuth, email } = useAuth();

@@ -1,5 +1,24 @@
 @import '../variables.scss';
+.item-description {
+  max-width: 600px; /* Установите желаемую ширину */
+  margin: 0 auto; /* Центрирование блока */
+}
 
+/* Стили текста для разных устройств */
+@media (max-width: 768px) {
+  .item-description {
+    font-size: 16px; /* Уменьшение размера шрифта для мобильных устройств */
+    line-height: 1.5; /* Увеличение межстрочного интервала */
+  }
+}
+
+/* Дополнительные стили для улучшения читаемости */
+.item-description p {
+  text-align: justify; /* Выравнивание текста по ширине */
+  color: #333; /* Темный цвет текста */
+  line-height: 1.6; /* Увеличение межстрочного интервала */
+  margin-bottom: 20px; /* Отступ между параграфами */
+}
 .pizza-block {
   width: 280px;
   text-align: center;
@@ -15,7 +34,8 @@
 
   &__image {
     width: 280px;
-    height: 380px;
+    max-height: 380px; 
+    object-fit: cover; 
   }
 
   &__title {
