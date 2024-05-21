@@ -2,7 +2,7 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { CartItem } from './CartItem';
 const Cart = () => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const items = useSelector((state) => state.cart.items);
   return (
     <div className="cartcart">

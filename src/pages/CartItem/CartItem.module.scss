@@ -39,7 +39,9 @@
   .cartBlockImg,img{
     border-radius: 20px 0 0 20px;
     width: 280px;
-    height: 360px;
+
+    max-height: 380px; 
+    object-fit: cover; 
     box-shadow: -5px 7px 8px 0px rgba(34, 60, 80, 0.2);
   }
 }

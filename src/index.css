@@ -45,10 +45,3 @@ code {
   height: 100%;
   object-fit: cover;
 }
-@keyframes slider {
-  0%   {background-image:url(./assets/images/img1.jpeg) }
-  25%  {background-image:url(./assets/images/img2.jpeg)}
-  50%  {background-image:url(./assets/images/img3.jpeg)}
-  75%  {background-image:url(./assets/images/img4.jpeg) }
-  100% {background-image:url(./assets/images/img5.jpeg)}
-}

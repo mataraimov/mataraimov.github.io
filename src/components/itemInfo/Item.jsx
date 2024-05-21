@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Item.module.scss';
 import { useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
+
 import { useDispatch } from 'react-redux';
 import { additem } from '../../redux/slices/cartSlice';
 import 'react-toastify/dist/ReactToastify.css';
@@ -18,8 +18,9 @@ export const Item = () => {
   const Item = useSelector((state) => state.info.item);
   const itemName = useSelector((state) => state.info.item.name);
   const itemPrice = useSelector((state) => state.info.item.price);
+  const itemDescription = useSelector((state) => state.info.item.description);
   const itemUrl = useSelector((state) => state.info.item.imgUrl);
-  const anotherUrl = useSelector((state) => state.info.item.anotherColor);
+
   const itemColor = useSelector((state) => state.info.item.color);
   const itemSizes = useSelector((state) => state.info.item.size);
   const [first, setfirst] = React.useState(0);
@@ -38,16 +39,12 @@ export const Item = () => {
       setfirst(first - 1);
     }
   };
+
   // console.log(anotherUrl);
   return (
     <div className={styles.div}>
       <div className={styles.imgSlider}>
-        <img
-          src={
-            urlList ? itemUrl[first] : anotherUrl.length === 0 ? itemUrl[first] : anotherUrl[first]
-          }
-          alt=""
-        />
+        <img src={itemUrl[first]} alt="" />
         <button onClick={prvsBtn} className={`material-symbols-outlined ${styles.bt1}`}>
           arrow_back_ios
         </button>
@@ -62,7 +59,6 @@ export const Item = () => {
           <div className={styles.colors}>
             {itemColor.map((el, i) => (
               <div
-                onClick={() => seturlList(!urlList)}
                 key={i}
                 style={{
                   width: '30px',
@@ -89,7 +85,7 @@ export const Item = () => {
           <button className="addToBasket" onClick={addToBasket}>
             add to basket
           </button>
-
+          <h4 className="item-description">{itemDescription}</h4>
           <p>MATERIALS AND CARE</p>
           <h4>JOIN LIFE</h4>
           <h5>Care for fiber & water: at least 20% recycled cotton.</h5>
