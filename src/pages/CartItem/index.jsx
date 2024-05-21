@@ -5,7 +5,7 @@ import { additem, removeitem, minusitem } from '../../redux/slices/cartSlice';
 import { Link } from 'react-router-dom';
 import Modal from './../../components/Modal';
 import { useAuth } from '../../hooks/isAuth';
-import { LoginPage } from './../LoginPage';
+
 import Payment from '../Payment';
 
 export const CartItem = () => {

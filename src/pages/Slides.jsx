@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactScrollWheelHandler from 'react-scroll-wheel-handler';
-import img1 from '../assets/images/img1.jpeg';
-import img3 from '../assets/images/img3.jpeg';
-import img4 from '../assets/images/img4.jpeg';
-import img5 from '../assets/images/img5.jpeg';
-import img7 from '../assets/images/img7.jpeg';
+
 class Slides extends React.Component {
   state = {
     currentIndex: 0,
-    colors: [img1, img3, img4, img5, img7],
+    colors: [
+      'https://slab.stanford.edu/sites/g/files/sbiybj25201/files/styles/card_1900x950/public/media/image/istock-1300754614_0.jpg?h=8f74817f&itok=gTWhzZQc',
+    ],
   };
   nextIndex = () => {
     const { colors, currentIndex } = this.state;
@@ -59,11 +57,11 @@ class Slides extends React.Component {
               flexWrap: 'wrap',
             }}
           >
-            <h6>there is</h6>
+            <h6>There is</h6>
             <h6>no</h6>
-            <h6>beauty,</h6>
+            <h6>ordinary,</h6>
             <h6>only</h6>
-            <h6>beauties</h6>
+            <h6>extraordinary</h6>
           </div>
         </ReactScrollWheelHandler>
       </div>

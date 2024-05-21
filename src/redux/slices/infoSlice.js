@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
   item: {
-    name: 'iPhone 13 Pro Max',
+    name: 'TechTrek X',
     price: 1099,
     imgUrl: [
       'https://login.kg/image/cache/catalog/new/Phones/Apple/IPhone%2013/Pro/1-500x400.jpg',
@@ -11,7 +11,7 @@ const initialState = {
     color: ['graphite', 'sierra blue', 'silver', 'gold', 'alpine green'],
     size: ['128GB', '256GB', '512GB', '1TB'],
     description:
-      "The iPhone 13 Pro Max is the pinnacle of Apple's smartphone technology. It boasts a stunning Super Retina XDR display with a 120Hz refresh rate for incredibly smooth visuals. The powerful A15 Bionic chip delivers unparalleled performance for demanding tasks and immersive gaming. Capture breathtaking photos and cinematic-quality videos with the advanced triple-lens camera system, featuring a larger main sensor and improved low-light capabilities. The iPhone 13 Pro Max also offers long-lasting battery life and a durable design, making it the perfect choice for power users and mobile photography enthusiasts.",
+      'The TechTrek X is a revolutionary smartphone packed with cutting-edge features. Its sleek design houses a powerful processor and stunning display, providing a seamless user experience. With a versatile camera system, you can capture every moment in exceptional detail. The TechTrek X offers advanced security features and long-lasting battery life, making it the perfect companion for your busy lifestyle. Choose from a range of stylish colors and storage options to suit your preferences.',
   },
 };
 

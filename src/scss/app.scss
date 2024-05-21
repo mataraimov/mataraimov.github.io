@@ -2,13 +2,7 @@
 @import './libs/normalize';
 
 @import './components/all';
-@keyframes slider {
-  0%   {background-image:url(../assets/images/img1.jpeg)}
-  25%  {background-image:url(../assets/images/img2.jpeg)}
-  50%  {background-image:url(../assets/images/img3.jpeg)}
-  75%  {background-image:url(../assets/images/img4.jpeg)}
-  100% {background-image:url(../assets/images/img5.jpeg)}
-}
+
 .scroll__wheel{
   animation-name: slider;
   animation-duration: 'infinite';
