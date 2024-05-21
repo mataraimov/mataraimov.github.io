@@ -1,4 +1,4 @@
-import logo from '.././assets/images/logo.png';
+import logo from '.././assets/images/TechTrack-Logo.png';
 import { Link } from 'react-router-dom';
 import React from 'react';
 
@@ -24,18 +24,6 @@ function Header() {
           </Link>
         </div>
         <div className="header__cart">
-          {isAuth ? (
-            <button className="search__button" onClick={() => dispatch(removeUser())}>
-              log out
-            </button>
-          ) : (
-            <Link to="/login">
-              <button className="search__button">login</button>
-            </Link>
-          )}
-          <Link to="/search">
-            <button className="search__button">search</button>
-          </Link>
           <Link to="/cart" className="button button--cart">
             <img src={bag} alt="" />
             <span>{items.reduce((sum, obj) => obj.count + sum, 0)}</span>

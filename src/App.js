@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import { Item } from './components/itemInfo/Item';
 import { LoginPage } from './pages/LoginPage';
 import { RegisterPage } from './pages/RegisterPage';
+import NewsPage from './pages/News';
 export const searchContext = React.createContext();
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
               <Route path="/items" element={<Home />} />
               <Route path="/search" element={<SearchBlock />} />
               <Route path="/career" element={<Career />} />
+              <Route path="/news" element={<NewsPage />} />
               <Route path="/cart" element={<Cart />} />
               <Route path="/item" element={<Item />} />
               <Route path="/login" element={<LoginPage />} />

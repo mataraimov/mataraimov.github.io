@@ -14,17 +14,23 @@ export const CartItem = () => {
   const dispatch = useDispatch();
   const items = useSelector((state) => state.cart.items);
   const { totalPrice } = useSelector((state) => state.cart);
+
   const addPlus = (el) => {
     dispatch(additem(el));
   };
+
   const addMinus = (id) => {
     dispatch(minusitem(id));
   };
+
   const deleteItem = (id) => {
     if (window.confirm('Are you sure you want to delete this item?')) {
       dispatch(removeitem(id));
     }
   };
+
+  const desiredQuantity = items.reduce((total, item) => total + item.count, 0);
+
   return (
     <>
       <div className={styles.div}>
@@ -61,7 +67,7 @@ export const CartItem = () => {
         ))}
       </div>
       <Modal active={modalActive} setactive={setmodalActive}>
-        {isAuth ? <Payment /> : <LoginPage />}
+        <Payment totalPrice={totalPrice} desiredQuantity={desiredQuantity} />
       </Modal>
       <div onClick={() => setmodalActive(true)} className={styles.total}>
         <span>Total: {totalPrice} usd</span>
